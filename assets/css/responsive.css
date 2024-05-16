@@ -449,6 +449,14 @@
     .page-heading-container h1 {
         font-size: 52px;
     }
+
+    .gallery-section div.gallery_product img {
+        margin: 10px 10px 10px 0;
+    }
+
+    .gallery-section div.gallery_product {
+        padding: 0 10px;
+    }
 }
 
 @media (max-width:680px) {
@@ -543,6 +551,10 @@
 
     .page-heading-container h1 {
         font-size: 48px;
+    }
+
+    .gallery-section div.gallery_product img {
+        margin: 10px 0px 10px 0;
     }
 }
 
