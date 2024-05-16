@@ -74,6 +74,12 @@
     .services-banner-container ul {
         margin-top: 40px;
     }
+
+    .owner-section .owner-container>h1 {
+        font-size: 44px;
+        line-height: 40px;
+        margin: 0 auto -30px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -139,6 +145,19 @@
     .services-section {
         overflow: hidden;
     }
+
+    .service-container._img_left img {
+        left: -35%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .page-heading-container h1 {
+        font-size: 56px;
+    }
 }
 
 @media (max-width:980px) {
@@ -165,6 +184,32 @@
     .service-container._img_left.center {
         left: -0%;
         padding-right: 0;
+    }
+
+    .service-container._img_left img {
+        left: -45%;
+    }
+
+    .owner-section .owner-container>h1 {
+        font-size: 36px;
+    }
+
+    .owner-section .service-content>h2 {
+        font-size: 30px;
+    }
+
+    .footer-section .other_links ul {
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+
+    .footer-section .other_links {
+        width: 100%;
+    }
+
+    .footer-container {
+        align-items: self-start;
     }
 }
 
@@ -388,6 +433,22 @@
         position: absolute;
         top: 0;
     }
+
+    .owner-section .service-content>div {
+        position: static;
+    }
+
+    .owner-section .service-container._img_left {
+        padding-top: 10px;
+    }
+
+    .footer-section {
+        margin-top: 140px;
+    }
+
+    .page-heading-container h1 {
+        font-size: 52px;
+    }
 }
 
 @media (max-width:680px) {
@@ -416,6 +477,14 @@
         padding: 0 30px;
         padding-top: 180px;
     }
+
+    .owner-section .owner-container>h1 {
+        font-size: 26px;
+    }
+
+    .footer-section {
+        margin-top: 100px;
+    }
 }
 
 @media (max-width:650px) {
@@ -432,6 +501,10 @@
 
     .services-banner-container .title h1 {
         font-size: 34px;
+    }
+
+    .owner-section .service-container._img_left {
+        padding: 0 20px;
     }
 }
 
@@ -467,6 +540,10 @@
         padding: 0 20px;
         padding-top: 180px;
     }
+
+    .page-heading-container h1 {
+        font-size: 48px;
+    }
 }
 
 @media (max-width:500px) {
@@ -494,6 +571,14 @@
     .service-container._img_left.center {
         padding: 0 10px;
         padding-top: 180px;
+    }
+
+    .owner-section .service-container._img_left {
+        padding: 0 0px;
+    }
+
+    .footer-section {
+        margin-top: 80px;
     }
 }
 

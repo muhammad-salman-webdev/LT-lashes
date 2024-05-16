@@ -128,7 +128,7 @@ html {
 
 body {
     overflow-x: hidden;
-    background-color: #fff5f460;
+    /* background-color: #fff5f430; */
 }
 
 /*  ###  Header top Starts Here ###  */
@@ -545,7 +545,7 @@ nav.navigation ul li a.active {
 /* ### */
 /* ### Services Sections Starts Here ### */
 .services-section {
-    padding: 50px 0;
+    /* padding: 50px 0; */
 }
 
 .services-container {
@@ -556,7 +556,7 @@ nav.navigation ul li a.active {
 .service-container {
     display: flex;
     justify-content: space-evenly;
-    margin: 50px 0;
+    margin: 70px 0;
 }
 
 .service-container._img_left {
@@ -685,4 +685,257 @@ ul.packages ul.packages li::before {
     position: relative;
 }
 
+.deco_img {
+    width: 100vw;
+    margin: 10px 0;
+}
+
+.owner-section {
+    margin: 50px 0;
+}
+
+.owner-section .owner-container>h1 {
+    margin: 0 auto 100px;
+    font-family: var(--quaternary-ff);
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 67.2px;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.owner-section .service-content>h4 {
+    font-family: var(--tertiary-ff);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    color: var(--grey);
+    margin: 40px 0 15px 0;
+}
+
+.owner-section .service-content>h2 {
+    font-family: var(--quaternary-ff);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    color: var(--grey);
+    min-width: max-content;
+}
+
+.owner-section .service-content>p {
+    font-family: var(--tertiary-ff);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25.2px;
+    color: var(--grey);
+    margin: 20px 0 30px;
+}
+
+.owner-section .service-content>div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.owner-section .service-content>div a img {
+    width: 22px;
+}
+
+.copy-write {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10vw;
+    background: black;
+    font-family: var(--secondary-ff);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: center;
+    color: white;
+}
+
+.footer-section {
+    background: #FFF5F4;
+    margin-top: 200px;
+}
+
+.footer-section .other_links ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.social_links-f {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-section .other_links ul li a {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-section .other_links ul li i,
+.social_links-f a {
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    box-shadow: 2.5px 4.33px 15px 0px #FAA29266;
+}
+
+.footer-section .other_links ul li span {
+    font-family: var(--secondary-ff);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: var(--grey-text);
+}
+
+.footer-section .other_links ul li:nth-child(2) span {
+    text-decoration: underline
+}
+
+.footer-container {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* ### Services Sections Ends Here ### */
+/* ### */
+/* ### */
+/* ### */
+/* ####  Policies Page  #### */
+/* ### */
+/* ### */
+/* ### */
+/* Page Heading Section Starts Here */
+.page-heading-section {
+    background: var(--grey);
+}
+
+.page-heading-container {
+    padding: 50px 0;
+}
+
+.page-heading-container h1 {
+    font-family: var(--primary-ff);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: white;
+}
+
+.page-heading-container div {
+    display: flex;
+    margin-top: 20px;
+    font-family: var(--secondary-ff);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.page-heading-container div a {
+    color: white;
+    margin-right: 20px;
+}
+
+.page-heading-container div span {
+    color: var(--pink);
+    padding-left: 20px;
+    border-left: 2px solid white;
+}
+
+/* Page Heading Section Ends Here */
+/* ### */
+/* ### */
+/* ### */
+/* Policies Section Starts Here */
+.policies-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.policies-container ul li {
+    background: #F8F8F8;
+    border-radius: 10px;
+    padding: 15px 20px;
+    cursor: default;
+}
+
+.ques {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ques i {
+    box-shadow: 0px 8px 16px 0px #0000001A;
+    background: #FFFFFF;
+    min-width: 40px;
+    width: 40px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ques h3 {
+    font-family: var(--primary-ff);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.4px;
+    text-align: left;
+    color: #190A32;
+}
+
+.ans {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: grid-template-rows 0.5s ease;
+}
+
+li.active .ans {
+    grid-template-rows: 1fr;
+}
+
+.ques i::before {
+    transition: transform .3s ease;
+    font-size: 18px;
+}
+
+li.active .ques i::before {
+    transform: rotate(135deg);
+}
+
+.ans>div {
+    min-height: 0;
+}
+
+.ans p {
+    font-family: var(--secondary-ff);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+    color: var(--grey-text);
+    padding: 30px 0 20px;
+}
+
+/* Policies Section Ends Here */
